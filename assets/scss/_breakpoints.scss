@@ -1,0 +1,32 @@
+@mixin responsive($breakpoint) {
+  @if $breakpoint == tab {
+    @media only screen and (min-width: 758px) {
+      @content;
+    }
+  }
+  @if $breakpoint == ss-desktop {
+    @media only screen and (min-width: 1014px) {
+      @content;
+    }
+  }
+  @if $breakpoint == s-desktop {
+    @media only screen and (min-width: 1270px) {
+      @content;
+    }
+  }
+  @if $breakpoint == desktop {
+    @media only screen and (min-width: 1356px) {
+      @content;
+    }
+  }
+  @if $breakpoint == l-desktop {
+    @media only screen and (min-width: 1440px) {
+      @content;
+    }
+  }
+  @if $breakpoint == sl-desktop {
+    @media only screen and (min-width: 1910px) {
+      @content;
+    }
+  }
+}
