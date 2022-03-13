@@ -150,6 +150,7 @@ nav {
         display: flex;
         line-height: 70px;
         width: 100%;
+        padding: 16px;
         justify-content: flex-start;
         align-items: center;
         font-size: $font-p;
@@ -219,4 +220,8 @@ nav {
       }
     }
   }
+}
+
+main {
+  margin-top: 109px;
 }
